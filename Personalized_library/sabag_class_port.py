@@ -51,7 +51,7 @@ PASSWORD_CAT3 = os.getenv(r'PASSWORD_CAT3')
 
 EDGE_USR = os.getenv('USER_EDGE')
 EDGE_PASS = os.getenv('PASSWORD_EDGE')
-#new note
+#new note x
     ####COPY PASTE ESTO
 
 # """
