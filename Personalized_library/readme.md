@@ -6,3 +6,4 @@ In pursuit of optimizing our data workflow, I’ve developed a personalized Pyth
   - **`CheckIfRun`**: Monitor and verify the successful execution of scripts within our data pipelines, crucial for maintaining data integrity and uptime.
   - **`SqlUtils`**: Aggregate common SQL operations into utility functions, minimizing code duplication and potential errors across projects.
 
+--
