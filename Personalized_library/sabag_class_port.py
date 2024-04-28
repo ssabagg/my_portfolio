@@ -9,9 +9,6 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.types import String
 from urllib.parse import quote_plus
 from psycopg2 import extras
-
-
-#dotenv
 import os
 from dotenv import load_dotenv, dotenv_values
 load_dotenv()
@@ -29,137 +26,8 @@ USER_SQL_AWS = os.getenv('USER_RS')
 PASSWORD_SQL_AWS = os.getenv('PASSWORD_RS')
 
 
-
-
-#EMP HYDRA
-SERVER_CAT = os.getenv('SERVER_CAT')
-DATABASE_CAT = os.getenv('DATABASE_CAT')
-USER_CAT = os.getenv('USER_CAT')
-PASSWORD_CAT = os.getenv(r'PASSWORD_CAT')
-
-#HMO HYDRA
-SERVER_CAT2 = os.getenv('SERVER_CAT2')
-DATABASE_CAT2 = os.getenv('DATABASE_CAT2')
-USER_CAT2 = os.getenv('USER_CAT2')
-PASSWORD_CAT2 = os.getenv(r'PASSWORD_CAT2')
-
-#GSO HYDRA
-SERVER_CAT3 = os.getenv('SERVER_CAT3')
-DATABASE_CAT3 = os.getenv('DATABASE_CAT3')
-USER_CAT3 = os.getenv('USER_CAT3')
-PASSWORD_CAT3 = os.getenv(r'PASSWORD_CAT3')
-
 EDGE_USR = os.getenv('USER_EDGE')
 EDGE_PASS = os.getenv('PASSWORD_EDGE')
-#new note x
-    ####COPY PASTE ESTO
-
-# """
-# used for creating a SQL Table "sql_tables_management" that will append the data of the
-#  status of all the tables in the database, this script should run once a week 7 days a week.
-#
-# Author: Omar Sabag
-# Date: 2023-08-29
-# """
-#
-#
-
-
-
-
-# import sys
-# sys.path.append(r'C:\Users\TE289165\PycharmProjects\untitled\sabaglibraries')
-# sys.path.append(r'C:\Users\TE289165\github\sbg_te_server1\sabaglibraries')
-# sys.path.append(r'C:\Users\TE570809\OneDrive - TE Connectivity\github repo\sbg_te_server1\sabaglibraries')
-# from sabagclass import SqlConn, CheckIfRun, SqlUtils, SqlUpload, SqlConnCAT, SqlConnAWS, SqlUploadAWS, CheckIfRunV2, SqlConnEdge
-#
-#
-# #server main path (uncomment this when on the server)
-# server_path = r'c:\sabag'
-# server_path2 = r'C:\Users\TE289165\Desktop\Omar Sabag\MACROS\PRODUCTION\Data Analyst\SQLDATA'
-#
-# #anne computer path
-# # server_path = r'C:\Users\TE570809\OneDrive - TE Connectivity\file dump\fig'
-# # server_path2 = r'C:\Users\TE570809\OneDrive - TE Connectivity\file dump\MACROS\PRODUCTION\Data Analyst\SQLDATA'
-#
-#
-
-
-## SQL CONNECTION TO EDGE REDSHIFT
-# SqlConnEdge = SqlConnEdge()
-# connEdge = SqlConnEdge.get_conn()
-
-
-# #SQL CONNECTION
-# sql_conn = SqlConn()
-# conn = sql_conn.get_conn()
-
-# #SQL CONNECTION AWS REDSHIFT
-# sql_conn_aws = SqlConnAWS()
-# connaws = sql_conn_aws.get_conn()
-#
-# #uploading sql MSSQL
-# sql_upload = SqlUpload()
-#
-# #uploading sql AWS
-# sql_upload_aws = SqlUploadAWS()
-#
-#
-#
-#
-#
-#
-#     #for inserting data into scripts in production
-# sql_utils = SqlUtils()
-# starttimestamp, startfecha = sql_utils.get_timestamp()
-#
-# script = 'test.py'
-# print(script)
-# serialno = 99
-# types = 'ETL'
-#
-# SqlUtils.insert_start_record(starttimestamp, startfecha, script, serialno, types)
-# # SqlUtils.insert_error_record('error', script, starttimestamp)
-# # SqlUtils.insert_finish_record(script, starttimestamp)
-
-# #Check if another script has run successfully
-# check_if_run = CheckIfRunV2(conn, SqlUtils)
-# #check_if_run.check_if_run('ERROR MESSAGE', 'WHICH SCRIPT CHECK IF RUN', script, starttimestamp, 'TIME TO CHECK LAST RUN')
-# check_if_run.check_if_run('ALL_MB51_prod.py didnt run', 'ALL_MB51_prod.py', script, starttimestamp, 29)
-
-
-##SQL CONNECTION HYDRA
-# sql_conn = SqlConnCAT()
-# connCat = sql_conn.get_connection()
-
-
-
-### UPLOAD TO MSSSQL
-# sql_upload.upload_dataframe(df,
-#                             table_name='testtable2',
-#                             chunksize=5000,
-#                             index=False,
-#                             if_exists='append')
-
-
-### UPLOAD TO SQL AWS REDSHIFT
-# sql_upload_aws.upload_dataframe(df,
-#                             table_name='testtable2',
-#                             chunksize=5000,
-#                             index=False,
-#                             if_exists='append')
-
-
-
-
-# #FOR Individual INSERTS:
-# #update excecute
-# sql_query = """
-#     delete from all_zbmt_streamlit
-# """
-# conn = sql_conn.get_conn()
-# with conn.connect() as conn:
-#     conn.exec_driver_sql(sql_query)
 
 
 class SqlUpload:
