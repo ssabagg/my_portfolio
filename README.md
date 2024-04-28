@@ -1,6 +1,6 @@
 # Omar Sabag's Data Science Portfolio
 
-## About Me
+##  :bust_in_silhouette: About Me
 
 Hello! I'm Omar, a Business Intelligence Manager at TE Connectivity. Holding a Master's degree in Data Science, I specialize in Python, SQL, Tableau, Machine Learning, ETL, web scraping, and building Streamlit web apps. My passion is in turning complex datasets into actionable insights and leveraging my technical expertise to drive data-driven decisions.
 
