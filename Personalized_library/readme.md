@@ -18,7 +18,7 @@ The `sabaglibraries` module is a collection of custom-built Python classes and f
 
 - SQL Server
 - AWS Redshift
-- Hydra databases for EMP, HMO, and GSO
+
 ## :classical_building: CLASSES
 
 >### :computer: `SqlConn`
