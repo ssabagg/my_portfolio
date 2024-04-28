@@ -8,7 +8,7 @@
 
 Hello! I'm Omar, a Business Intelligence Manager at TE Connectivity. Holding a Master's degree in Data Science, I specialize in Python, SQL, Tableau, Machine Learning, ETL, web scraping, and building Streamlit web apps. My passion is in turning complex datasets into actionable insights and leveraging my technical expertise to drive data-driven decisions.
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/omarsabag) ![LinkedIn](https://image.flaticon.com/icons/png/512/61/61109.png)
+Feel free to connect with me on [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/omarsabag) 
 
 ## Python and Data Science
 
