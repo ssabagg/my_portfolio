@@ -1,16 +1,16 @@
 # :file_folder: SAPtoSQL Scripts Documentation
 
-## Overview
+## :mag: Overview
 The `SAPtoSQL` folder contains a suite of Python scripts that form the backbone of our data extraction from SAP and loading pipeline. Each script is designed to perform a specific Extract, Transform, and Load (ETL) task, interacting with SAP systems to extract data, clean and transform it for enhanced information content, and finally load it into our SQL Server databases for further analysis and reporting.
 
-### ETL Process Breakdown
+### :gear: ETL Process Breakdown
 The ETL process is broken down into three main functions:
 
 1. **SAP Extract**: Automated scripts connect to SAP and extract data based on specific requirements.
 2. **Clean (Transformation)**: Extracted data is then cleaned, validated, and transformed to fit the target schema in the SQL database.
 3. **Upload to SQL Server**: Clean and transformed data is loaded into the SQL Server database, making it available for applications.
 
-## Sample Script Functionality: 
+## :microscope: Sample Script Functionality: 
 Below is a high-level description of a sample function within the `cr05` script, demonstrating the SAP extract phase:
 
 ```python
@@ -100,11 +100,11 @@ if __name__ == "__main__":
     sap()
 
 ```
-## Data Cleaning and Consolidation Function
+## :broom: Data Cleaning and Consolidation Function
 
 As part of the data transformation process, the cleanup function is tasked with merging multiple Excel files into a single cohesive DataFrame. This step is essential for creating a unified dataset from various sources, simplifying the subsequent analysis and loading phases.
 
-### Function Overview
+### :page_with_curl: Function Overview
 
 The cleanup function performs the following operations:
 
@@ -113,7 +113,7 @@ The cleanup function performs the following operations:
 3. **Concatenation**: The individual DataFrames are concatenated into one larger DataFrame. Concatenation is done row-wise (`axis=0`), which means that data from each file is added as new rows to the cumulative DataFrame.
 4. **Index Resetting**: The `ignore_index=True` parameter is set to ensure that the resulting DataFrame has a continuous index without any repetition of index values from the source files.
 
-### Detailed Explanation of the Code Block
+### :gear: Detailed Explanation of the Code Block
 
 ```python
 
@@ -147,11 +147,11 @@ def concatenate_excel_files(csv_files):
 ```
 
 
-## SQL Data Upload Function
+## :arrow_up: SQL Data Upload Function
 
 The final stage in the ETL process involves uploading the transformed data into a SQL database for persistent storage and easy access for querying and reporting. The `sqlupload` function handles this task using custom classes designed to facilitate database connections and operations.
 
-### Function Overview
+### :page_facing_up: Function Overview
 
 This function accomplishes the following:
 
@@ -160,7 +160,7 @@ This function accomplishes the following:
 3. **Batch Processing**: The data is uploaded in chunks to optimize memory usage and improve performance, particularly important when dealing with large datasets.
 4. **Handling of Duplicates**: The `if_exists` parameter is set to 'append', ensuring that new data is added to the existing table without overwriting current content.
 
-### Detailed Explanation of the Code Block
+### :wrench: Detailed Explanation of the Code Block
 
 ```python
 def sqlupload():
@@ -173,7 +173,7 @@ def sqlupload():
         
         # Upload the DataFrame to the SQL table
         sql_upload.upload_dataframe(df,
-                                    table_name='ALL_ZSD3TR008N',
+                                    table_name='cr05_sap',
                                     chunksize=5000,
                                     index=False,
                                     if_exists='append')
