@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Python" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="40" height="40" />
+  <img alt="Python" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="120" height="120" />
 </p>
 
 # Omar Sabag's Data Science Portfolio
