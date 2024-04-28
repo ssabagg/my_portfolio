@@ -41,10 +41,6 @@ The `sabaglibraries` module is a collection of custom-built Python classes and f
 >   - **Purpose**: Creates connections specifically to Edge Redshift, utilizing ODBC connections.
 >   - **Returns**: A database connection object.
 
-> ### :mag_right: `CheckIfRun` (obsolete)
-> - **Purpose**: Checks if the specified script has completed its run successfully, used for dependent sequential script execution.
-> - **Returns**: A boolean indicating success or failure of the specified script's last run.
-
 > ### :heavy_check_mark: `CheckIfRunV2`
 > - **Purpose**: Enhances the `CheckIfRun` functionality with additional validation for script dependencies within workflows.
 > - **Returns**: A boolean indicating if the dependent script can proceed based on the successful execution of its prerequisite script(s).
