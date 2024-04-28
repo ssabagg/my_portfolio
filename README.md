@@ -15,29 +15,26 @@ As a Python Data Science Developer, I extensively use data manipulation, analysi
 ## Projects
 
 
-### :snake: Personalized API Library (`Personalized_library/`)
-Created `sabagclass.py`, a suite of Python classes that act as a custom tool for enhancing database operations, ETL processes, and reporting automation. 
-[View on GitHub](https://github.com/ssabagg/my_portfolio/tree/main/Personalized_library)
+## Projects
 
-### :gear: Data ETL Workflows (`ETL_SAP/`)
-Implemented data extraction from SAP and developed workflows for transforming and integrating data into SQL databases for in-depth analysis.
-[View on GitHub](https://github.com/ssabagg/my_portfolio/tree/main/ETL_SAP)
+   ### :snake: Personalized API Library ([`Personalized_library/`](https://github.com/ssabagg/my_portfolio/tree/main/Personalized_library))
+   Created `sabagclass.py`, a suite of Python classes that act as a custom tool for enhancing database operations, ETL processes, and reporting automation. 
 
-### :chart_with_upwards_trend: Machine Learning Demand Forecasting System (`Machine_learning/`)
-Developed a machine learning forecasting model using Scikit-Learn to enhance the accuracy of future demand predictions.
-[View on GitHub](https://github.com/ssabagg/my_portfolio/tree/main/Machine_learning)
+   ### :gear: Data ETL Workflows ([`ETL_SAP/`](https://github.com/ssabagg/my_portfolio/tree/main/ETL_SAP))
+   Implemented data extraction from SAP and developed workflows for transforming and integrating data into SQL databases for in-depth analysis.
 
-### :bar_chart: Web Applications (`Streamlit_webapps/`)
-Utilized the Streamlit Library to create interactive web applications for data exploration, entirely built with Python.
-[View on GitHub](https://github.com/ssabagg/my_portfolio/tree/main/Streamlit_webapps)
+   ### :chart_with_upwards_trend: Machine Learning Demand Forecasting System ([`Machine_learning/`](https://github.com/ssabagg/my_portfolio/tree/main/Machine_learning))
+   Developed a machine learning forecasting model using Scikit-Learn to enhance the accuracy of future demand predictions.
 
-### :envelope_with_arrow: Automated Reporting (`automated_reporting/`)
-Engineered automated email reporting scripts to disseminate timely data insights, incorporating Plotly charts within the email body.
-[View on GitHub](https://github.com/ssabagg/my_portfolio/tree/main/automated_reporting)
+   ### :bar_chart: Web Applications ([`Streamlit_webapps/`](https://github.com/ssabagg/my_portfolio/tree/main/Streamlit_webapps))
+   Utilized the Streamlit Library to create interactive web applications for data exploration, entirely built with Python.
 
-### :spider_web: Web Data Extraction (`web_scrapping/`)
-Employed Selenium for automating web data extraction processes, streamlining the gathering of web-based information.
-[View on GitHub](https://github.com/ssabagg/my_portfolio/tree/main/web_scrapping)
+   ### :envelope_with_arrow: Automated Reporting ([`automated_reporting/`](https://github.com/ssabagg/my_portfolio/tree/main/automated_reporting))
+   Engineered automated email reporting scripts to disseminate timely data insights, incorporating Plotly charts within the email body.
+
+   ### :spider_web: Web Data Extraction ([`web_scrapping/`](https://github.com/ssabagg/my_portfolio/tree/main/web_scrapping))
+   Employed Selenium for automating web data extraction processes, streamlining the gathering of web-based information.
+
 ---
 
 Thank you for visiting my portfolio. If you're interested in collaborating or would like to learn more about my work, please feel free to reach out.
