@@ -59,7 +59,9 @@ The `sabaglibraries` module is a collection of custom-built Python classes and f
 ## :toolbox:  Dependencies
 
 To install all dependencies required for `sabaglibraries`, run the following command:
-
+```bash
+pip install sqlalchemy pyodbc psycopg2-binary pandas numpy python-dotenv
+```
 ## :electric_plug: Example How to Call It inside a Python Script
 
 ```python
@@ -73,6 +75,3 @@ conn = sql_conn.get_conn()
 
 ```
 
-```bash
-pip install sqlalchemy pyodbc psycopg2-binary pandas numpy python-dotenv
-```
