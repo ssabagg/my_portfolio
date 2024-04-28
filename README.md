@@ -14,9 +14,7 @@ Feel free to connect with me on [![LinkedIn](https://img.shields.io/badge/Linked
 
 As a Python Data Science Developer, I extensively use data manipulation, analysis, and visualization libraries including Pandas, NumPy, Matplotlib, and Scikit-Learn. I have a track record of crafting predictive models and insightful analytics for strategic decision-making, underpinned by a solid grasp of machine learning algorithms and data structures.
 
-## Projects
-
-
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)(https://github.com/ssabagg/my_portfolio)
 ## Projects
 
    ### :snake: Personalized API Library ([`Personalized_library/`](https://github.com/ssabagg/my_portfolio/tree/main/Personalized_library))
