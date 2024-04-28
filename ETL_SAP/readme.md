@@ -1,4 +1,4 @@
-#  :books: SAPtoSQL Scripts Documentation
+#  :books: ETL_SAP Scripts Documentation
 
 ## :mag: Overview
 The `SAPtoSQL` folder contains a suite of Python scripts that form the backbone of our data extraction from SAP and loading pipeline. Each script is designed to perform a specific Extract, Transform, and Load (ETL) task, interacting with SAP systems to extract data, clean and transform it for enhanced information content, and finally load it into our SQL Server databases for further analysis and reporting.
