@@ -23,7 +23,7 @@ As a Python Data Science Developer, I extensively use data manipulation, analysi
    Implemented data extraction from SAP and developed workflows for transforming and integrating data into SQL databases for in-depth analysis.
 
    ### :chart_with_upwards_trend: Machine Learning Demand Forecasting System ([`Machine_learning/`](https://github.com/ssabagg/my_portfolio/tree/main/Machine_learning))
-   Developed a machine learning forecasting model using Scikit-Learn to enhance the accuracy of future demand predictions.
+   Developed a machine learning forecasting model using Scikit-Learn to enhance the accuracy of future demand predictions. 
 
    ### :bar_chart: Web Applications ([`Streamlit_webapps/`](https://github.com/ssabagg/my_portfolio/tree/main/Streamlit_webapps))
    Utilized the Streamlit Library to create interactive web applications for data exploration, entirely built with Python.
