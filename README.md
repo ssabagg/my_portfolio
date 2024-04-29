@@ -22,16 +22,16 @@ As a Python Data Science Developer, I extensively use data manipulation, analysi
    ### :gear: Data ETL Workflows ([`ETL_SAP/`](https://github.com/ssabagg/my_portfolio/tree/main/ETL_SAP))
    Implemented data extraction from SAP and developed workflows for transforming and integrating data into SQL databases for in-depth analysis.
 
-   ### :chart_with_upwards_trend: Machine Learning Demand Forecasting System ([`Machine_learning/`](https://github.com/ssabagg/my_portfolio/tree/main/Machine_learning))
+   ### :chart_with_upwards_trend: Machine Learning Demand Forecasting System ([`Machine_learning/`](https://github.com/ssabagg/my_portfolio/tree/main/Machine_learning)) :construction: (WORK IN PROGRESS)
    Developed a machine learning forecasting model using Scikit-Learn to enhance the accuracy of future demand predictions. 
 
-   ### :bar_chart: Web Applications ([`Streamlit_webapps/`](https://github.com/ssabagg/my_portfolio/tree/main/Streamlit_webapps))
+   ### :bar_chart: Web Applications ([`Streamlit_webapps/`](https://github.com/ssabagg/my_portfolio/tree/main/Streamlit_webapps)) :construction: (WORK IN PROGRESS)
    Utilized the Streamlit Library to create interactive web applications for data exploration, entirely built with Python.
 
-   ### :envelope_with_arrow: Automated Reporting ([`automated_reporting/`](https://github.com/ssabagg/my_portfolio/tree/main/automated_reporting))
+   ### :envelope_with_arrow: Automated Reporting ([`automated_reporting/`](https://github.com/ssabagg/my_portfolio/tree/main/automated_reporting)) :construction: (WORK IN PROGRESS)
    Engineered automated email reporting scripts to disseminate timely data insights, incorporating Plotly charts within the email body.
 
-   ### :spider_web: Web Data Extraction ([`web_scrapping/`](https://github.com/ssabagg/my_portfolio/tree/main/web_scrapping))
+   ### :spider_web: Web Data Extraction ([`web_scrapping/`](https://github.com/ssabagg/my_portfolio/tree/main/web_scrapping)) :construction: (WORK IN PROGRESS)
    Employed Selenium for automating web data extraction processes, streamlining the gathering of web-based information.
 
 ---
